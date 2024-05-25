@@ -81,7 +81,7 @@ function Homepage() {
           </a>
         </div>
 
-        <SkillsSection theme={theme} skills={[
+        <SkillsSection theme={theme}  skills={[
           {
             title: "Programming Languages",
             description: user_info.skills.languages.description,
