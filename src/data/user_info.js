@@ -43,7 +43,7 @@ const info = {
         },
         {
             "title": "BluMap",
-            "description": "Created a travel planning web app with itinerary customization and social features.",
+            "description": "Created a travel planning web application with itinerary customization and social features.",
             "technologies": "https://skillicons.dev/icons?i=react,nextjs,nodejs,postgresql,jest,docker&perline=6&theme=",
             "github": "https://github.com/StanleyTK/blumap",
             "link": "https://blumap.netlify.app/"
