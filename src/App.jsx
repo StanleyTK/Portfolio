@@ -1,35 +1,33 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Homepage from './pages/Homepage'
-import NotFound from './pages/404'
-import { useEffect, useState } from 'react';
-import { createContext } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Homepage from './pages/Homepage';
+import NotFound from './pages/404';
+import { useEffect, useState, createContext } from 'react';
 
 export const AppContext = createContext();
 
 function App() {
-	const savedTheme = localStorage.getItem("theme");
-    const [theme, setTheme] = useState(savedTheme || "dark");
+  const savedTheme = localStorage.getItem('theme');
+  const [theme, setTheme] = useState(savedTheme || 'dark');
 
-	useEffect(() => {
-        document.documentElement.classList.toggle("dark", theme === "dark");
+  useEffect(() => {
+    document.documentElement.classList.toggle('dark', theme === 'dark');
+    localStorage.setItem('theme', theme);
+  }, [theme]);
 
-        localStorage.setItem("theme", theme);
-    }, [theme]);
+  const switchTheme = () => {
+    setTheme(theme === 'dark' ? 'light' : 'dark');
+  };
 
-	const switchTheme = () => {
-        setTheme(theme === "dark" ? "light" : "dark");
-    };
-
-	return (
-		<AppContext.Provider value={{ theme, switchTheme }}>
-			<BrowserRouter>
-				<Routes>
-					<Route path="/" element={<Homepage />} />
-					<Route path="*" element={<NotFound />} />
-				</Routes>
-			</BrowserRouter>
-		</AppContext.Provider>
-	)
+  return (
+    <AppContext.Provider value={{ theme, switchTheme }}>
+      <BrowserRouter basename="/stanleytk.github.io">
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
+    </AppContext.Provider>
+  );
 }
 
-export default App
+export default App;
