@@ -1,9 +1,9 @@
 {
-  "name": "dsbalico-portfolio",
+  "name": "stanleytk.github.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://stanleytk.github.io/stanleytk.github.io",
+  "homepage": "https://stanleytk.github.io/Portfolio  ",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
