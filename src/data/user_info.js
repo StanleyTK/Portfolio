@@ -124,7 +124,6 @@ const info = {
           },
          
         ],
-      
     "footer": "© 2024 Stanley Kim. All Rights Reserved"
 }
 
