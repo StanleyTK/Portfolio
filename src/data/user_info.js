@@ -73,28 +73,28 @@ const info = {
             "company": "Kohl's",
             "role": "Software Engineer Intern",
             "year": "May 2024 - Present",
-            "image": "kohls.png",
+            "image": "../../public/kohls.png",
             "description": "Worked on Kohl's Marketplace online application, enhancing e-commerce operations and vendor integrations."
         },
         {
             "company": "Comerica Bank",
             "role": "Technology Intern",
             "year": "May 2023 - August 2023",
-            "image": "comerica.png",
+            "image": "../../public/comerica.png",
             "description": "Automated HR processes and synchronized employee information across multiple platforms."
         },
         {
             "company": "The Data Mine @ Purdue University",
             "role": "Undergraduate Teaching Assistant",
             "year": "August 2023 - May 2024",
-            "image": "purduedata.png",
+            "image": "../../public/purduedata.png",
             "description": "Mentored students and assisted with data analysis and machine learning projects."
         },
         {
             "company": "Quantic",
             "role": "Software Engineer Intern",
             "year": "May 2022 - August 2022",
-            "image": "quantic.png",
+            "image": "../../public/quantic.png",
             "description": "Developed dashboards and test scripts, and performed data engineering for performance metrics."
         }
     ],
