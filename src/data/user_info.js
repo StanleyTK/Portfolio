@@ -29,7 +29,7 @@ const info = {
     "projects": [
         {
             "title": "StockPulse",
-            "description": "Developed a stock market simulation game with real-time trading capabilities and competitive features.",
+            "description": "Developed a stock market simulation game with trading capabilities and competitive features.",
             "technologies": "https://skillicons.dev/icons?i=react,nextjs,java,spring,mysql,maven&perline=6&theme=",
             "github": "https://github.com/StanleyTK/stockpulse",
             "link": "https://stockpulse.netlify.app/"
