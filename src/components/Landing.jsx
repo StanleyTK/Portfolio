@@ -5,7 +5,7 @@ import user_info from "../data/user_info.js";
 
 function Landing() {
   const [text] = useTypewriter({
-    words: ['Software Engineer', 'Full Stack Developer', 'Fast Learner'],
+    words: ['Software Engineer', 'Full-Stack Developer', 'Programmer', 'Fast Learner'],
     loop: true,
     delaySpeed: 1500,
   });

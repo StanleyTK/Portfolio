@@ -1,5 +1,4 @@
-import React from "react";
-import { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Project from "../components/Project";
 import ExperienceCard from "../components/ExperienceCard";
 import SkillsSection from "../components/SkillsSection";
@@ -9,12 +8,18 @@ import Landing from "../components/Landing";
 import user_info from "../data/user_info.js";
 import ToggleTheme from "../components/ToggleTheme.jsx";
 import { AppContext } from "../App.jsx";
+import EducationSection from "../components/EducationSection";
 
 function Homepage() {
   const { theme, switchTheme } = useContext(AppContext);
+  const [animationStarted, setAnimationStarted] = useState(false);
+
+  useEffect(() => {
+    setAnimationStarted(true);
+  }, []);
 
   return (
-    <div className="bg-gray-50 dark:bg-[#101e38]">
+    <div className={`bg-gray-50 dark:bg-[#101e38] ${animationStarted ? 'animate-fadeIn' : ''}`}>
       <div className="lg:w-[1200px] md:mx-auto h-full border-x border-gray-100 dark:border-gray-800 bg-white dark:bg-[#0e182c]">
         <ToggleTheme switchTheme={switchTheme} />
 
@@ -22,7 +27,8 @@ function Homepage() {
 
         <div id="experience" className="px-6 md:px-24 mt-20">
           <h4 className="text-3xl font-bold text-gray-900 dark:text-gray-100">Experience</h4>
-          <hr className="border-b-2 border-black-600 mb-6"/>
+          <hr className="border-b-2 border-black-600 mb-6" />
+
           <div className="mt-8 grid grid-cols-1 sm:grid-cols-1 gap-8 md:gap-12">
             {user_info.experience.map((job, index) => (
               <ExperienceCard 
@@ -52,7 +58,8 @@ function Homepage() {
 
         <div id="projects" className="px-6 md:px-24 mt-20">
           <h4 className="text-3xl font-bold text-gray-900 dark:text-gray-100">Projects</h4>
-          <hr className="border-b-2 border-black-600 mb-6"/>
+          <hr className="border-b-2 border-black-600 mb-6" />
+
           <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-12">
             {user_info.projects.map((project, index) => (
               <Project 
@@ -98,11 +105,12 @@ function Homepage() {
           }
         ]} />
 
-        <ContactSection />
+        <EducationSection education={user_info.education} />
 
-        <hr className="mt-12 border border-gray-300 dark:border-gray-700" />
+        <ContactSection className="mb-12" />
 
-        <Footer />
+        <Footer className="mt-12" />
+
       </div>
     </div>
   )
