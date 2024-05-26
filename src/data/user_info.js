@@ -47,7 +47,7 @@ const info = {
       "education": [
         {
           "school": "Purdue University",
-          "degree": "BS in Computer Science",
+          "degree": "Bachelor's in Computer Science",
           "year": "August 2022 - May 2025",
           "image": "purdue.png",
           "activities": "Purdue Hackers, ML@Purdue, The Data Mine",
@@ -67,46 +67,46 @@ const info = {
       "description": "Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions. If you have a specific question or comment, please feel free to email me directly at stanleykim2003@gmail.com. I make an effort to respond to all messages within 24 hours, although it may take me longer during busy periods. Finally, if you prefer to connect on social media, you can connect with me using the social media links below."
   },
   "experience": [
-      {
-          "company": "Kohl's",
-          "role": "Software Engineer Intern",
-          "year": "May 2024 – Present",
-          "location": "San Ramon, CA",
-          "image": "kohls.png",
-          "description": "Developed a Java Spring Boot microservice for managing vendor attribute data, implementing CRUD operations and integrating with MongoDB for scalable data storage.\nBuilt and maintained a RESTful API for catalog search functionality, leveraging AWS to enable serverless deployment and scalable search capabilities.\nAutomated data extraction and transfer processes using Spring Batch and AWS S3, ensuring seamless data migration and consistency across environments.\nUtilized MongoDB for intermediate data storage and achieved a 40% improvement in data processing efficiency.",
-          "technologies": "https://skillicons.dev/icons?i=java,spring,mongodb,mysql&perline=6&theme=dark",
-          "technologyUsed": "Java, Spring, MongoDB, AWS"
-      },
-      {
-          "company": "The Data Mine, Purdue University",
-          "role": "Undergraduate Teaching Assistant",
-          "year": "August 2023 – May 2024",
-          "location": "West Lafayette, IN",
-          "image": "purdue.png",
-          "description": "Mentored students in data analysis and machine learning projects, providing guidance on Python and TensorFlow.\nAssisted in the development and grading of coursework related to data science and machine learning.\nFacilitated lab sessions and provided one-on-one support to students, enhancing their understanding of complex concepts.",
-          "technologies": "https://skillicons.dev/icons?i=python,tensorflow&perline=6&theme=dark",
-          "technologyUsed": "Python, TensorFlow, Keras"
-      },
-      {
-          "company": "Comerica Bank",
-          "role": "Technology Intern",
-          "year": "May 2023 – August 2023",
-          "location": "Auburn Hills, MI",
-          "image": "comerica.png",
-          "description": "Engineered custom Java scripts to automate HR bulk change procedures, drastically reducing a two-week manual process into an efficient, streamlined workflow.\nUtilized MySQL database APIs to efficiently access and manipulate data within SailPoint IdentityIQ.\nCollaborated with HR Operations to synchronize critical employee information, including role changes, transfers, and terminations, across multiple platforms.",
-          "technologies": "https://skillicons.dev/icons?i=java,mysql&perline=6&theme=dark",
-          "technologyUsed": "Java, MySQL, SailPoint IdentityIQ"
-      },
-      {
-          "company": "Quantic",
-          "role": "Software Engineer Intern",
-          "year": "May 2022 – August 2022",
-          "location": "King of Prussia, PA",
-          "image": "quantic.png",
-          "description": "Leveraged PostgreSQL for backend data engineering, performing data retrieval and processing to extract critical performance metrics for store associates.\nEnhanced stakeholder decision-making by developing interactive React dashboards with Chart.js, optimizing the visualization of productivity and efficiency metrics.\nDeveloped 50 test scripts using Python and Selenium to evaluate web-based POS system functionalities.",
-          "technologies": "https://skillicons.dev/icons?i=python,selenium,postgresql,react&perline=6&theme=dark",
-          "technologyUsed": "Python, Selenium, PostgreSQL, React"
-      }
+    {
+      "company": "Kohl's",
+      "role": "Software Engineer Intern",
+      "year": "May 2024 – Present",
+      "location": "San Ramon, CA",
+      "image": "kohls.png",
+      "description": "I'm currently developing a Java Spring Boot microservice for managing vendor attribute data, implementing CRUD operations and integrating with MongoDB for scalable data storage.\nI've built and maintained a RESTful API for catalog search functionality, leveraging AWS to enable serverless deployment and scalable search capabilities.\nI also automated data extraction and transfer processes using Spring Batch and AWS S3, ensuring seamless data migration and consistency across environments.",
+      "technologies": "https://skillicons.dev/icons?i=java,spring,mongodb,mysql&perline=6&theme=dark",
+      "technologyUsed": "Java, Spring, MongoDB, AWS"
+    },
+    {
+      "company": "The Data Mine, Purdue University",
+      "role": "Undergraduate Teaching Assistant",
+      "year": "August 2023 – May 2024",
+      "location": "West Lafayette, IN",
+      "image": "purdue.png",
+      "description": "As a TA in the Data Mine Learning Community, I mentored 9 students, helping them develop LSTM and Random Forest models to enhance failure prediction and usage patterns for Inogen’s portable oxygen concentrators.\nI conducted comprehensive data analysis and machine learning strategies, achieving an impressive R² score of 82% for precision in predictions, demonstrating robust predictive capabilities and technical proficiency.",
+      "technologies": "https://skillicons.dev/icons?i=python,tensorflow&perline=6&theme=dark",
+      "technologyUsed": "Python, TensorFlow, Keras"
+    },
+    {
+      "company": "Comerica Bank",
+      "role": "Technology Intern",
+      "year": "May 2023 – August 2023",
+      "location": "Auburn Hills, MI",
+      "image": "comerica.png",
+      "description": "During my time at Comerica Bank, I engineered custom Java scripts to automate HR bulk change procedures, drastically reducing a two-week manual process into an efficient, streamlined workflow.\nI utilized MySQL database APIs to efficiently access and manipulate data within SailPoint IdentityIQ.\nI collaborated closely with HR Operations to synchronize critical employee information, including role changes, transfers, and terminations, across multiple platforms.",
+      "technologies": "https://skillicons.dev/icons?i=java,mysql&perline=6&theme=dark",
+      "technologyUsed": "Java, MySQL, SailPoint IdentityIQ"
+    },
+    {
+      "company": "Quantic",
+      "role": "Software Engineer Intern",
+      "year": "May 2022 – August 2022",
+      "location": "King of Prussia, PA",
+      "image": "quantic.png",
+      "description": "At Quantic, I leveraged PostgreSQL for backend data engineering, performing data retrieval and processing to extract critical performance metrics for store associates.\nI enhanced stakeholder decision-making by developing interactive React dashboards with Chart.js, optimizing the visualization of productivity and efficiency metrics.\nAdditionally, I developed 50 test scripts using Python and Selenium to evaluate web-based POS system functionalities.",
+      "technologies": "https://skillicons.dev/icons?i=python,selenium,postgresql,react&perline=6&theme=dark",
+      "technologyUsed": "Python, Selenium, PostgreSQL, React"
+    }
   ],
   "footer": "© 2024 Stanley Kim. All Rights Reserved"
 }
