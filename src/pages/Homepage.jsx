@@ -40,11 +40,10 @@ function Homepage() {
           </div>
         </div>
 
-        {/* Download Button for Resume */}
         <div className="flex justify-start mt-12 px-6 md:px-24">
           <a 
-            href="public/StanleyKimResume.pdf" 
-            download="Stanley_Kim_Resume.pdf" 
+            href="/Portfolio/StanleyKimResume.pdf" 
+            download="StanleyKimResume.pdf" 
             className="px-6 py-3 border border-gray-900 dark:border-gray-100 text-gray-900 dark:text-gray-100 hover:bg-blue-600 hover:text-gray-100 transition-all duration-300"
           >
             Download Resume

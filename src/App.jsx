@@ -20,7 +20,7 @@ function App() {
 
   return (
     <AppContext.Provider value={{ theme, switchTheme }}>
-      <BrowserRouter basename="/stanleytk.github.io">
+      <BrowserRouter basename="/Portfolio">
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="*" element={<NotFound />} />

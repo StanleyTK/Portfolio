@@ -45,7 +45,7 @@ const info = {
             "description": "Created a travel planning web application with itinerary customization and social features.",
             "technologies": "https://skillicons.dev/icons?i=react,nextjs,nodejs,postgresql,jest,docker&perline=6&theme=",
             "github": "https://github.com/StanleyTK/blumap",
-            "link": "www.google.com",
+            "link": "https://github.com/StanleyTK/blumap",
             "technologyUsed": "React, NextJS, NodeJS, PostgreSQL, Jest, Docker"
         },
         // {
@@ -88,8 +88,8 @@ const info = {
             "location": "San Ramon, CA",
             "image": "kohls.png",
             "description": "Developed a Java Spring Boot microservice for managing vendor attribute data, implementing CRUD operations and integrating with MongoDB for scalable data storage.\nBuilt and maintained a RESTful API for catalog search functionality, leveraging AWS to enable serverless deployment and scalable search capabilities.\nAutomated data extraction and transfer processes using Spring Batch and AWS S3, ensuring seamless data migration and consistency across environments.\nUtilized MongoDB for intermediate data storage and achieved a 40% improvement in data processing efficiency.",
-            "technologies": "https://skillicons.dev/icons?i=java,spring,mongodb,aws,docker,mysql&perline=6&theme=dark",
-            "technologyUsed": "Java, Spring, MongoDB, AWS, Docker, MySQL"
+            "technologies": "https://skillicons.dev/icons?i=java,spring,mongodb,mysql&perline=6&theme=dark",
+            "technologyUsed": "Java, Spring, MongoDB, AWS"
           },
           {
             "company": "The Data Mine, Purdue University",
@@ -109,7 +109,7 @@ const info = {
             "location": "Auburn Hills, MI",
             "image": "comerica.png",
             "description": "Engineered custom Java scripts to automate HR bulk change procedures, drastically reducing a two-week manual process into an efficient, streamlined workflow.\nUtilized MySQL database APIs to efficiently access and manipulate data within SailPoint IdentityIQ.\nCollaborated with HR Operations to synchronize critical employee information, including role changes, transfers, and terminations, across multiple platforms.",
-            "technologies": "https://skillicons.dev/icons?i=java,mysql,git&perline=6&theme=dark",
+            "technologies": "https://skillicons.dev/icons?i=java,mysql&perline=6&theme=dark",
             "technologyUsed": "Java, MySQL, SailPoint IdentityIQ"
           },
           {
