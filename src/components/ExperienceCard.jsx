@@ -6,8 +6,8 @@ function ExperienceCard({ image, role, company, year, description, location, tec
 
   return (
     <div className="bg-white dark:bg-[#0e182c] hover:bg-gray-100 dark:hover:bg-[#1a2d4e] transition-all duration-300 p-6 rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 font-sans">
-      <div className="flex justify-between items-start">
-        <div className="flex items-center gap-4">
+      <div className="flex flex-col sm:flex-row justify-between items-start">
+        <div className="flex items-center gap-4 mb-4 sm:mb-0">
           <img src={image} alt={company} className="h-16 w-16 rounded-full border border-gray-300 dark:border-gray-700" />
           <div>
             <h5 className="text-lg font-bold text-gray-900 dark:text-gray-100">{role}</h5>
@@ -16,7 +16,7 @@ function ExperienceCard({ image, role, company, year, description, location, tec
             <p className="text-sm text-gray-500 dark:text-gray-300">{location}</p>
           </div>
         </div>
-        <div className="mt-4">
+        <div className="mt-4 sm:mt-0 sm:ml-4">
           <img src={technologies} alt="Technologies" className="h-12 w-auto" />
         </div>
       </div>
