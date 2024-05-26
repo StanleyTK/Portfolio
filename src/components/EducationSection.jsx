@@ -4,7 +4,7 @@ function EducationSection({ education }) {
   return (
     <section id="education" className="px-6 md:px-24 mt-20 font-sans">
       <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-100">Education</h2>
-      <hr className="border-b-2 border-gray-600 mb-6" />
+      <hr className="border-b-2 border-black-600 mb-6" />
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-12">
         {education.map((edu, index) => (
           <article

@@ -5,7 +5,7 @@ function ExperienceCard({ image, role, company, year, description, location, tec
   const technologyUsedList = technologyUsed.split(',');
 
   return (
-    <div className="bg-white dark:bg-[#0e182c] hover:bg-gray-100 dark:hover:bg-[#1a2d4e] transition-all duration-300 p-6 rounded-lg shadow-md hover:shadow-lg font-sans">
+    <div className="bg-white dark:bg-[#0e182c] hover:bg-gray-100 dark:hover:bg-[#1a2d4e] transition-all duration-300 p-6 rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 font-sans">
       <div className="flex justify-between items-start">
         <div className="flex items-center gap-4">
           <img src={image} alt={company} className="h-16 w-16 rounded-full border border-gray-300 dark:border-gray-700" />

@@ -107,10 +107,9 @@ function Homepage() {
 
         <EducationSection education={user_info.education} />
 
-        <ContactSection className="mb-12" />
+        <ContactSection />
 
-        <Footer className="mt-12" />
-
+        <Footer />
       </div>
     </div>
   )

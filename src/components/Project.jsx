@@ -5,7 +5,7 @@ function Project({ theme, title, description, technologies, link, github, techno
   const technologyUsedList = technologyUsed.split(',');
 
   return (
-    <div className="bg-white dark:bg-[#0e182c] hover:bg-gray-100 dark:hover:bg-[#1a2d4e] transition-all duration-300 p-6 rounded-lg shadow-md hover:shadow-lg font-sans">
+    <div className="bg-white dark:bg-[#0e182c] hover:bg-gray-100 dark:hover:bg-[#1a2d4e] transition-all duration-300 p-6 rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 font-sans">
       <img className="w-60" src={technologies + theme} alt="Technologies" />
       <h3 className="font-bold text-lg text-gray-900 dark:text-gray-100 mt-4">{title}</h3>
       <p className="leading-7 text-gray-700 dark:text-gray-300 font-light text-base mt-4">{description}</p>
