@@ -1,7 +1,7 @@
 const info = {
   "main": {
       "name": "Stanley Kim",
-      "description": "I am a software engineer with expertise in full-stack web development. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards.",
+      "description": "Hi, I'm Stanley, a Computer Science student at Purdue University. I have a strong interest in backend and full-stack web development, creating scalable and secure applications. I enjoy tackling complex problems and continuously learning new technologies. I'm committed to producing high-quality code that adheres to best practices and industry standards.",
       "role": "Software Engineer",
       "photo": "photo.jpg",
       "email": "stanleykim2003@gmail.com",
@@ -27,22 +27,60 @@ const info = {
       }
   },
   "projects": [
-      {
-          "title": "StockPulse",
-          "description": "Developed a stock market simulation game with trading capabilities and competitive features.",
-          "technologies": "https://skillicons.dev/icons?i=react,nextjs,java,spring,mysql,maven&perline=6&theme=",
-          "github": "https://github.com/StanleyTK/stockpulse",
-          "link": "https://github.com/StanleyTK/stockpulse",
-          "technologyUsed": "React, NextJS, Java, Spring Boot, MySQL"
-      },
-      {
-          "title": "BluMap",
-          "description": "Created a travel planning web application with itinerary customization and social features.",
-          "technologies": "https://skillicons.dev/icons?i=react,nextjs,nodejs,postgresql,docker&perline=6&theme=",
-          "github": "https://github.com/StanleyTK/blumap",
-          "link": "https://github.com/StanleyTK/blumap",
-          "technologyUsed": "React, NextJS, NodeJS, PostgreSQL, Docker"
-      },
+    {
+      "title": "StockPulse",
+      "description": "Developed a stock market simulation game with trading and competitive features.",
+      "technologies": "https://skillicons.dev/icons?i=react,nextjs,java,spring,mysql&perline=6&theme=dark&size=32",
+      "github": "https://github.com/StanleyTK/stockpulse",
+      "technologyUsed": "React, NextJS, Java, Spring Boot, MySQL"
+  },
+  {
+      "title": "BluMap",
+      "description": "Created a travel planning application with itinerary customization and social features.",
+      "technologies": "https://skillicons.dev/icons?i=react,nextjs,nodejs,postgresql,docker&perline=6&theme=dark&size=32",
+      "github": "https://github.com/StanleyTK/blumap",
+      "technologyUsed": "React, NextJS, NodeJS, PostgreSQL, Docker"
+  },
+  {
+    "title": "Predictive Modeling for Emergency Surgeries",
+    "description": "Implemented time-series forecasting models to accurately predict emergency surgeries with 85% accuracy.",
+    "technologies": "https://skillicons.dev/icons?i=python,mysql,tensorflow&perline=6&theme=dark&size=32",
+    "link": "https://datamine.purdue.edu/corporate/iuhealth/TDM_Symposium2023_Poster_IUHealth.pdf",
+    "technologyUsed": "Python, SQL, TensorFlow"
+},
+  {
+    "title": "Pathfinding Algorithm Visualizer",
+    "description": "Visualized pathfinding algorithms with an interactive web application.",
+    "technologies": "https://skillicons.dev/icons?i=javascript,html,css&perline=6&theme=dark&size=32",
+    "github": "https://github.com/StanleyTK/Pathfinding-Algorithm-Visualizer",
+    "link": "https://stanleytk.github.io/Pathfinding-Algorithm-Visualizer/",
+    "technologyUsed": "JavaScript, HTML, CSS"
+  },
+
+  // {
+  //     "title": "MyChessEngine",
+  //     "description": "Developed a chess engine with autonomous playing capabilities using MinMax Algorithm.",
+  //     "technologies": "https://skillicons.dev/icons?i=java,maven,&perline=6&theme=dark&size=32",
+  //     "github": "https://github.com/StanleyTK/MyChessEngine",
+  //     "link": "https://drive.google.com/drive/folders/1g6TVNaikgLV6VBmlKgQzC5npMR0Qj6xv",
+  //     "technologyUsed": "Java, Maven"
+  // },
+
+  // {
+  //     "title": "MyShell",
+  //     "description": "Implemented a shell interpreter combining features from common shells like bash.",
+  //     "technologies": "https://skillicons.dev/icons?i=c,cpp,&perline=6&theme=dark&size=32",
+  //     "technologyUsed": "C, C++"
+  // },
+  
+  // {
+  //     "title": "Portfolio",
+  //     "description": "Personal portfolio website showcasing my experience, projects, and skills.",
+  //     "technologies": "https://skillicons.dev/icons?i=react,tailwindcss,vite&perline=6&theme=dark&size=1",
+  //     "github": "https://github.com/StanleyTK/Portfolio",
+  //     "link": "https://stanleytk.github.io/Portfolio/",
+  //     "technologyUsed": "React, TailwindCSS, Vite"
+  // }
     ],
       "education": [
         {
@@ -70,10 +108,10 @@ const info = {
     {
       "company": "Kohl's",
       "role": "Software Engineer Intern",
-      "year": "May 2024 – Present",
+      "year": "June 2024 – Present",
       "location": "San Ramon, CA",
       "image": "kohls.png",
-      "description": "I'm currently developing a Java Spring Boot microservice for managing vendor attribute data, implementing CRUD operations and integrating with MongoDB for scalable data storage.\nI've built and maintained a RESTful API for catalog search functionality, leveraging AWS to enable serverless deployment and scalable search capabilities.\nI also automated data extraction and transfer processes using Spring Batch and AWS S3, ensuring seamless data migration and consistency across environments.",
+      "description": "I'm currently in the Kohl's Marketplace Backend team, using Java, Spring Boot, MongoDB, MySQL",
       "technologies": "https://skillicons.dev/icons?i=java,spring,mongodb,mysql&perline=6&theme=dark",
       "technologyUsed": "Java, Spring, MongoDB, AWS"
     },
@@ -108,7 +146,7 @@ const info = {
       "technologyUsed": "Python, Selenium, PostgreSQL, React"
     }
   ],
-  "footer": "© 2024 Stanley Kim. All Rights Reserved"
+  "footer": "© 2024 Stanley Kim."
 }
 
 export default info;
