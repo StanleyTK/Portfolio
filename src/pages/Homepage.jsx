@@ -25,6 +25,37 @@ function Homepage() {
 
         <Landing />
 
+        <div id="projects" className="px-6 md:px-24 mt-20">
+          <h4 className="text-3xl font-bold text-gray-900 dark:text-gray-100">Projects</h4>
+          <hr className="border-b-2 border-black-600 mb-6" />
+
+          <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-12">
+            {user_info.projects.map((project, index) => (
+              <Project 
+                key={index} 
+                theme={theme} 
+                title={project.title} 
+                description={project.description} 
+                technologies={project.technologies} 
+                github={project.github} 
+                link={project.link} 
+                technologyUsed={project.technologyUsed}
+              />
+            ))}
+          </div>
+        </div>
+
+        <div className="flex justify-start mt-12 px-6 md:px-24">
+          <a 
+            href="https://github.com/StanleyTK" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 border border-gray-900 dark:border-gray-100 text-gray-900 dark:text-gray-100 hover:bg-blue-600 hover:text-gray-100 transition-all duration-300"
+          >
+            View All Projects
+          </a>
+        </div>
+
         <div id="experience" className="px-6 md:px-24 mt-20">
           <h4 className="text-3xl font-bold text-gray-900 dark:text-gray-100">Experience</h4>
           <hr className="border-b-2 border-black-600 mb-6" />
@@ -56,36 +87,7 @@ function Homepage() {
           </a>
         </div>
 
-        <div id="projects" className="px-6 md:px-24 mt-20">
-          <h4 className="text-3xl font-bold text-gray-900 dark:text-gray-100">Projects</h4>
-          <hr className="border-b-2 border-black-600 mb-6" />
-
-          <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-12">
-            {user_info.projects.map((project, index) => (
-              <Project 
-                key={index} 
-                theme={theme} 
-                title={project.title} 
-                description={project.description} 
-                technologies={project.technologies} 
-                github={project.github} 
-                link={project.link} 
-                technologyUsed={project.technologyUsed}
-              />
-            ))}
-          </div>
-        </div>
-
-        <div className="flex justify-start mt-12 px-6 md:px-24">
-          <a 
-            href="https://github.com/StanleyTK" 
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-6 py-3 border border-gray-900 dark:border-gray-100 text-gray-900 dark:text-gray-100 hover:bg-blue-600 hover:text-gray-100 transition-all duration-300"
-          >
-            View All Projects
-          </a>
-        </div>
+      
 
         <SkillsSection theme={theme}  skills={[
           {
