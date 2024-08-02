@@ -123,7 +123,7 @@ const info = {
         "year": "June 2024 – Present",
         "location": "San Ramon, CA",
         "image": "kohls.png",
-        "description": "Collaborated with engineers to redesign Kohl’s Marketplace batch jobs with Java, Spring Boot, Mirakl, and Kafka, optimizing performance by 40% through horizontal scaling, and utilizing microservices in an agile environment.\nEngineered a batch job with a MongoDB database for Inmar return services and developed a tasklet for efficient data export to Google Cloud Storage, enhancing data processing and storage scalability.\nDeveloped REST API controllers for UPC monitoring, significantly enhancing the accuracy and availability of product data across Kohl’s website, and effectively managing a catalog of over 560,000 products.",
+        "description": "Engineered automated data pipeline for Seller Feed data for Marketplace products, deploying to Google Cloud Storage and utilizing Jarvis for data transfer, and securely connecting to Inmar's FTP server for data handling.\nDeveloped and optimized REST API controllers for UPC monitoring, integrating with Mirakl and implementing pagination to significantly reduce engineering support time by 2-3 hours per sprint.\nGenerated \$3.5 million in annual revenue from Kohl's Marketing Network and saved \$200K annually from Inmar operations, demonstrating substantial financial impact and cost reductions through streamlined processes.\nImplemented CI/CD pipelines and OpenShift for deployments, and created comprehensive test cases covering 80% of program functionalities, ensuring robust system validation and reliability.",
         "technologies": "https://skillicons.dev/icons?i=java,spring,mongodb,gcp,kafka&perline=5&theme=dark",
         "technologyUsed": "Java, Spring Boot, MongoDB, Google Cloud Storage, Kafka"
     },
@@ -143,7 +143,7 @@ const info = {
         "year": "May 2023 – August 2023",
         "location": "Auburn Hills, MI",
         "image": "comerica.png",
-        "description": "Developed Java services utilizing SailPoint IdentityIQ APIs to automate the onboarding and offboarding processes, streamlining HR operations and significantly reducing manual effort.\nImplemented MySQL database queries to integrate employee data with SailPoint IdentityIQ, ensuring accurate synchronization of user attributes and roles across the system.\nCollaborated with HR Operations and IT teams to design and execute bulk user updates, including role assignments and deactivations, improving data accuracy and compliance with company policies.",
+        "description": "Developed Java services using Spring Boot REST API to interact with SailPoint IdentityIQ APIs, automating the onboarding and offboarding processes and saving an estimated 10 hours per month for engineers on these tasks.\nExecuted MySQL database queries to integrate employee data with SailPoint IdentityIQ, ensuring synchronization of user attributes and roles for over 5,000 employees.\nCollaborated with HR Operations and IT teams to design and execute bulk user updates, including role assignments and deactivations, and using JSON files for data processing.",
         "technologies": "https://skillicons.dev/icons?i=java,mysql&perline=6&theme=dark",
         "technologyUsed": "Java, MySQL, SailPoint IdentityIQ"
     },
@@ -153,7 +153,7 @@ const info = {
         "year": "May 2022 – August 2022",
         "location": "King of Prussia, PA",
         "image": "quantic.png",
-        "description": "Leveraged PostgreSQL for backend data engineering, performing data retrieval and processing to extract critical performance metrics for store associates.\nEnhanced stakeholder decision-making by developing interactive React dashboards with Chart.js, optimizing the visualization of productivity and efficiency metrics.\nDeveloped 50 test scripts using Python and Selenium to evaluate web-based POS system functionalities.",
+        "description": "Leveraged Node.js and PostgreSQL database for backend data engineering in a team of three interns, performing data retrieval and processing to develop an admin dashboard for business earnings.\nEnhanced stakeholder decision-making by developing interactive React dashboards with Chart.js, visualizing earnings metrics across multiple stores.\nDeveloped 50 test scripts using Python and Selenium to evaluate web-based POS system functionalities.",
         "technologies": "https://skillicons.dev/icons?i=python,selenium,postgresql,react&perline=6&theme=dark",
         "technologyUsed": "Python, Selenium, PostgreSQL, React"
     }
