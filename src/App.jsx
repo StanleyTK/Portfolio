@@ -1,25 +1,30 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Homepage from './pages/Homepage';
-import NotFound from './pages/404';
-import { useEffect, useState, createContext } from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useEffect, useState, createContext } from "react";
+
+import Homepage from "./pages/Homepage";
+import NotFound from "./pages/404";
+
+/* NEW */
+import Vanta from "./components/Vanta.jsx";
 
 export const AppContext = createContext();
 
 function App() {
-  const savedTheme = localStorage.getItem('theme');
-  const [theme, setTheme] = useState(savedTheme || 'dark');
+  const savedTheme = localStorage.getItem("theme");
+  const [theme, setTheme] = useState(savedTheme || "dark");
 
   useEffect(() => {
-    document.documentElement.classList.toggle('dark', theme === 'dark');
-    localStorage.setItem('theme', theme);
+    document.documentElement.classList.toggle("dark", theme === "dark");
+    localStorage.setItem("theme", theme);
   }, [theme]);
 
-  const switchTheme = () => {
-    setTheme(theme === 'dark' ? 'light' : 'dark');
-  };
+  const switchTheme = () => setTheme(theme === "dark" ? "light" : "dark");
 
   return (
     <AppContext.Provider value={{ theme, switchTheme }}>
+      {/* NEW – runs once, stays behind everything */}
+      <Vanta />
+
       <BrowserRouter basename="/Portfolio">
         <Routes>
           <Route path="/" element={<Homepage />} />

@@ -39,77 +39,75 @@ const info = {
     // },
   },
   "projects": [
-    {
-      "title": "StockPulse",
-      "description": "Developed a stock market simulation game with trading and competitive features.",
-      "technologies": "https://skillicons.dev/icons?i=react,nextjs,java,spring,mysql&perline=6&theme=dark&size=32",
-      "github": "https://github.com/StanleyTK/stockpulse",
-      "technologyUsed": "React, NextJS, Java, Spring Boot, MySQL"
-  },
+  /* 1 ──────────────────────────────── */
   {
-      "title": "BluMap",
-      "description": "Created a travel planning application with itinerary customization and social features.",
-      "technologies": "https://skillicons.dev/icons?i=react,nextjs,nodejs,postgresql,docker&perline=6&theme=dark&size=32",
-      "github": "https://github.com/StanleyTK/blumap",
-      "technologyUsed": "React, NextJS, NodeJS, PostgreSQL, Docker"
-  },
-  {
-    "title": "Predictive Modeling for Emergency Surgeries",
-    "description": "Implemented time-series forecasting models to accurately predict emergency surgeries with 85% accuracy.",
-    "technologies": "https://skillicons.dev/icons?i=python,mysql,tensorflow&perline=6&theme=dark&size=32",
-    "link": "https://datamine.purdue.edu/corporate/iuhealth/TDM_Symposium2023_Poster_IUHealth.pdf",
-    "technologyUsed": "Python, SQL, TensorFlow"
-},
-//  {
-  //   "title": "MyChessEngine",
-  //   "description": "Engineered a powerful chess engine to help players train.",
-  //   "technologies": "https://skillicons.dev/icons?i=java,maven&perline=6&theme=dark&size=32",
-  //   "github": "https://github.com/StanleyTK/Pathfinding-Algorithm-Visualizer",
-  //   "link": "https://stanleytk.github.io/Pathfinding-Algorithm-Visualizer/",
-  //   "technologyUsed": "JavaScript, HTML, CSS"
-  // },
-
-  {
-      "title": "MyChessEngine",
-      "description": "Developed a chess engine with autonomous playing capabilities using MinMax Algorithm.",
-      "technologies": "https://skillicons.dev/icons?i=java,maven,&perline=6&theme=dark&size=32",
-      "github": "https://github.com/StanleyTK/MyChessEngine",
-      "link": "https://drive.google.com/drive/folders/1g6TVNaikgLV6VBmlKgQzC5npMR0Qj6xv",
-      "technologyUsed": "Java, Maven"
+    "title": "BoilerMarket",
+    "description": "Full-stack marketplace for Purdue students.",
+    "technologies": "https://skillicons.dev/icons?i=react,typescript,django,firebase,mysql,aws&perline=6&theme=dark&size=32",
+    "github": "https://github.com/StanleyTK/BoilerMarket",
+    "technologyUsed": "React, TypeScript, Tailwind CSS, Python, Django, Firebase, MySQL, AWS"
   },
 
-  // {
-  //     "title": "MyShell",
-  //     "description": "Implemented a shell interpreter combining features from common shells like bash.",
-  //     "technologies": "https://skillicons.dev/icons?i=c,cpp,&perline=6&theme=dark&size=32",
-  //     "technologyUsed": "C, C++"
-  // },
+  /* 2 ──────────────────────────────── */
+  {
+    "title": "PokerAI",
+    "description": "Reinforcement-learning poker AI that learns optimal betting strategies (Working progress).",
+    "technologies": "https://skillicons.dev/icons?i=python,cpp,pytorch,tensorflow&perline=6&theme=dark&size=32",
+    "technologyUsed": "Python, C++, PyTorch, TensorFlow, NumPy, Scikit-learn"
+  },
   
-  // {
-  //     "title": "Portfolio",
-  //     "description": "Personal portfolio website showcasing my experience, projects, and skills.",
-  //     "technologies": "https://skillicons.dev/icons?i=react,tailwindcss,vite&perline=6&theme=dark&size=1",
-  //     "github": "https://github.com/StanleyTK/Portfolio",
-  //     "link": "https://stanleytk.github.io/Portfolio/",
-  //     "technologyUsed": "React, TailwindCSS, Vite"
-  // }
-    ],
+
+  /* 3 ──────────────────────────────── */
+  {
+    "title": "StockPulse",
+    "description": "Developed a stock-market simulation game with trading and leaderboards.",
+    "technologies": "https://skillicons.dev/icons?i=react,nextjs,java,spring,mysql&perline=6&theme=dark&size=32",
+    "github": "https://github.com/StanleyTK/stockpulse",
+    "technologyUsed": "React, NextJS, Java, Spring Boot, MySQL"
+  },
+
+  /* 4 ──────────────────────────────── */
+  {
+    "title": "BluMap",
+    "description": "Travel-planning app with itinerary builder, maps, and social sharing.",
+    "technologies": "https://skillicons.dev/icons?i=react,nextjs,nodejs,postgresql,docker&perline=6&theme=dark&size=32",
+    "github": "https://github.com/StanleyTK/blumap",
+    "technologyUsed": "React, NextJS, NodeJS, PostgreSQL, Docker"
+  },
+
+  /* 5 ──────────────────────────────── */
+  {
+    "title": "SmartPlanner",
+    "description": "Personal task-management app.",
+    "technologies": "https://skillicons.dev/icons?i=python,django,postgres,react,docker&perline=6&theme=dark&size=32",
+    "github": "https://github.com/StanleyTK/smartplanner",
+    "technologyUsed": "Python, Django, PostgreSQL, Docker, React, NextJS, TailwindCSS"
+  },
+
+  /* 6 ──────────────────────────────── */
+  {
+    "title": "MyChessEngine",
+    "description": "Chess engine with autonomous play via Minimax and α-β pruning.",
+    "technologies": "https://skillicons.dev/icons?i=java,maven&perline=6&theme=dark&size=32",
+    "github": "https://github.com/StanleyTK/MyChessEngine",
+    "link": "https://drive.google.com/drive/folders/1g6TVNaikgLV6VBmlKgQzC5npMR0Qj6xv",
+    "technologyUsed": "Java, Maven"
+  }
+],
+
       "education": [
         {
           "school": "Purdue University",
           "degree": "Bachelor's in Computer Science",
-          "year": "2022 - 2025",
+          "year": "August 2022 - December 2025",
           "image": "purdue.png",
-          "activities": "Purdue Hackers, ML@Purdue, The Data Mine",
-          "awards": "William C. Nylin Jr. Endowed Scholarship ($3,000)"
         },
         {
           "school": "Conestoga High School",
           "degree": "High School Diploma",
-          "year": "2018 - 2022",
+          "year": "August 2018 - June 2022",
           "image": "conestoga.png",
-          "activities": "Computer Science Club, Varsity Swim Team",
-          "awards": "National Honors Society, First Honors"
+
         }
       ],
   "contact": {
@@ -117,49 +115,68 @@ const info = {
       "description": "Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions. If you have a specific question or comment, please feel free to email me directly at stanleykim2003@gmail.com. I make an effort to respond to all messages within 24 hours, although it may take me longer during busy periods. Finally, if you prefer to connect on social media, you can connect with me using the social media links below."
   },
   "experience": [
-    {
-        "company": "Kohl's",
-        "role": "Software Engineer Intern",
-        "year": "June 2024 – Present",
-        "location": "San Ramon, CA",
-        "image": "kohls.png",
-        "description": "Engineered automated data pipeline for Seller Feed data for Marketplace products, deploying to Google Cloud Storage and utilizing Jarvis for data transfer, and securely connecting to Inmar's FTP server for data handling.\nDeveloped and optimized REST API controllers for UPC monitoring, integrating with Mirakl and implementing pagination to significantly reduce engineering support time by 2-3 hours per sprint.\nGenerated \$3.5 million in annual revenue from Kohl's Marketing Network and saved \$200K annually from Inmar operations, demonstrating substantial financial impact and cost reductions through streamlined processes.\nImplemented CI/CD pipelines and OpenShift for deployments, and created comprehensive test cases covering 80% of program functionalities, ensuring robust system validation and reliability.",
-        "technologies": "https://skillicons.dev/icons?i=java,spring,mongodb,gcp,kafka&perline=5&theme=dark",
-        "technologyUsed": "Java, Spring Boot, MongoDB, Google Cloud Storage, Kafka"
-    },
-    {
-        "company": "The Data Mine @ Purdue University",
-        "role": "Undergraduate Teaching Assistant",
-        "year": "August 2023 – May 2024",
-        "location": "West Lafayette, IN",
-        "image": "purdue.png",
-        "description": "Mentored 9 students to enhance failure prediction and usage patterns for Inogen’s portable oxygen concentrators.\nUtilized Multivariate LSTM and Random Forest models to analyze and predict device failures, leading to improved maintenance scheduling and device reliability.\nGuided student projects in data analysis and machine learning, achieving an 82% accuracy in predictive tasks, significantly assisting Inogen in optimizing product performance and customer satisfaction.",
-        "technologies": "https://skillicons.dev/icons?i=python,tensorflow&perline=6&theme=dark",
-        "technologyUsed": "Python, TensorFlow, Keras"
-    },
-    {
-        "company": "Comerica Bank",
-        "role": "Technology Intern",
-        "year": "May 2023 – August 2023",
-        "location": "Auburn Hills, MI",
-        "image": "comerica.png",
-        "description": "Developed Java services using Spring Boot REST API to interact with SailPoint IdentityIQ APIs, automating the onboarding and offboarding processes and saving an estimated 10 hours per month for engineers on these tasks.\nExecuted MySQL database queries to integrate employee data with SailPoint IdentityIQ, ensuring synchronization of user attributes and roles for over 5,000 employees.\nCollaborated with HR Operations and IT teams to design and execute bulk user updates, including role assignments and deactivations, and using JSON files for data processing.",
-        "technologies": "https://skillicons.dev/icons?i=java,mysql&perline=6&theme=dark",
-        "technologyUsed": "Java, MySQL, SailPoint IdentityIQ"
-    },
-    {
-        "company": "Quantic",
-        "role": "Software Engineer Intern",
-        "year": "May 2022 – August 2022",
-        "location": "King of Prussia, PA",
-        "image": "quantic.png",
-        "description": "Leveraged Node.js and PostgreSQL database for backend data engineering in a team of three interns, performing data retrieval and processing to develop an admin dashboard for business earnings.\nEnhanced stakeholder decision-making by developing interactive React dashboards with Chart.js, visualizing earnings metrics across multiple stores.\nDeveloped 50 test scripts using Python and Selenium to evaluate web-based POS system functionalities.",
-        "technologies": "https://skillicons.dev/icons?i=python,selenium,postgresql,react&perline=6&theme=dark",
-        "technologyUsed": "Python, Selenium, PostgreSQL, React"
-    }
-  ],
+  /* 1 ───────── Amazon Web Services ───────────────── */
+  {
+    "company": "Amazon Web Services",
+    "role": "Software Development Engineer Intern",
+    "year": "May 2025 – August 2025",
+    "location": "Boston, MA",
+    "image": "aws.png",
+    "description": "This summer I joined the AWS FSx Control Plane team, building and maintaining the management interfaces that let customers provision, configure, and manage FSx file systems across Windows, NetApp ONTAP, OpenZFS, and Lustre. My primary project is a client-side tag-filtering system for the FSx Console in TypeScript/React, enabling dynamic, multi-resource filtering (file systems, volumes, backups, storage VMs, snapshots) with debounced search and pagination. I’m also writing unit and integration tests to cover edge cases and validate filtering across every FSx resource type, ensuring reliable search and smoother resource discovery.",
+    "technologies": "https://skillicons.dev/icons?i=typescript,react,aws,cloudwatch&perline=5&theme=dark",
+    "technologyUsed": "TypeScript, React, AWS, CloudWatch"
+  },
 
-  "footer": "© 2024 Stanley Kim."
+  /* 2 ───────── Kohl’s Technology ─────────────────── */
+  {
+    "company": "Kohl’s Technology",
+    "role": "Software Engineer Intern",
+    "year": "June 2024 – August 2024",
+    "location": "San Francisco, CA",
+    "image": "kohls.png",
+    "description": "At the end of my freshman year I joined the Kohl’s Marketplace team, concentrating on third-party seller integration. I enhanced Spring-Boot product-monitoring services by integrating external platform feeds and adding in-memory pagination, which reduced support workload. I architected a Spring Batch pipeline that streams product data into Google Cloud Storage buckets, generating roughly $3.5 million in annual revenue. I also instituted Docker- and Kubernetes-based CI/CD, sustaining 90 % test coverage, and helped refactor a legacy Java microservice into a standalone Kafka consumer to boost horizontal scalability for incoming seller updates.",
+    "technologies": "https://skillicons.dev/icons?i=java,spring,mongodb,gcp,kafka&perline=5&theme=dark",
+    "technologyUsed": "Java, Spring Boot, MongoDB, GCP, Kafka, Docker, Kubernetes"
+  },
+
+  /* 3 ───────── The Data Mine @ Purdue (Inogen) ───── */
+  {
+    "company": "The Data Mine @ Purdue University",
+    "role": "Research Project Lead",
+    "year": "August 2023 – May 2024",
+    "location": "West Lafayette, IN",
+    "image": "purdue.png",
+    "description": "As Project Lead for a 12-member Agile team partnering with Inogen, I organized sprint planning and weekly stakeholder reviews while driving the full ML pipeline for predictive maintenance of portable oxygen concentrators. I built Random Forest and multivariate LSTM models in Python (TensorFlow, scikit-learn), engineered features from 30 + on-device sensors, tuned hyperparameters, and achieved 81 % accuracy on multi-month hold-out data. Weekly executive briefings translated model insights into actionable maintenance schedules and improved device reliability.",
+    "technologies": "https://skillicons.dev/icons?i=python,keras,scikitlearn&perline=6&theme=dark",
+    "technologyUsed": "Python, scikit-learn, TensorFlow/Keras"
+  },
+
+  /* 4 ───────── Comerica Bank ─────────────────────── */
+  {
+    "company": "Comerica Bank",
+    "role": "Technology Intern",
+    "year": "May 2023 – August 2023",
+    "location": "Auburn Hills, MI",
+    "image": "comerica.png",
+    "description": "I spent the summer of 2023 on Comerica Bank’s Identity & Access Management team, building Java Spring-Boot microservices that integrated with SailPoint IdentityIQ. The services automated onboarding and off-boarding for more than 75 applications, saving ~10 engineer-hours per month. I also implemented lifecycle triggers to keep user attributes and roles synchronized for 5,000 + employees via high-volume MySQL queries, ensuring accurate and timely access across HR and IT systems.",
+    "technologies": "https://skillicons.dev/icons?i=java,spring,mysql&perline=6&theme=dark",
+    "technologyUsed": "Java, Spring Boot, MySQL, SailPoint IdentityIQ"
+  },
+
+  /* 5 ───────── Data Mine @ Purdue (IU Health) ────── */
+  {
+    "company": "The Data Mine @ Purdue University",
+    "role": "Undergraduate Data Science Researcher",
+    "year": "August 2022 – May 2023",
+    "location": "West Lafayette, IN",
+    "image": "purdue.png",
+    "description": "As part of a seven-person team embedded with IU Health System, I developed LSTM and GLM forecasting models to predict emergency-surgery volumes with ~90 % accuracy. I led comparative analyses of ARIMA, VAR, and other time-series techniques to forecast inpatient admissions, helping optimize staff scheduling during the post-COVID recovery period.",
+    "technologies": "https://skillicons.dev/icons?i=python,tensorflow,statsmodels&perline=6&theme=dark",
+    "technologyUsed": "Python, TensorFlow, statsmodels, SQL"
+  }
+],
+
+"footer": "© 2025 Stanley Kim."
 }
 
 export default info;
