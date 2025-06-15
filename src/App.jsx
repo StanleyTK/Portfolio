@@ -4,7 +4,6 @@ import { useEffect, useState, createContext } from "react";
 import Homepage from "./pages/Homepage";
 import NotFound from "./pages/404";
 
-/* NEW */
 import Vanta from "./components/Vanta.jsx";
 
 export const AppContext = createContext();
@@ -22,9 +21,7 @@ function App() {
 
   return (
     <AppContext.Provider value={{ theme, switchTheme }}>
-      {/* NEW – runs once, stays behind everything */}
       <Vanta />
-
       <BrowserRouter basename="/Portfolio">
         <Routes>
           <Route path="/" element={<Homepage />} />

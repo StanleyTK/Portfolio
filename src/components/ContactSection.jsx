@@ -5,8 +5,8 @@ import user_info from "../data/user_info.js";
 
 function ContactSection() {
   return (
-    <div id="contact" className="px-6 md:px-24 mt-20 font-sans">
-      <p className="mt-8 leading-7 text-base text-gray-500 dark:text-gray-300 font-light">{user_info.contact.description}</p>
+    <div id="contact" className="px-6 md:px-24 mt-5 font-sans">
+      <p className="mt-4 leading-7 text-base text-gray-500 dark:text-gray-300 font-light">{user_info.contact.description}</p>
       <div className="mt-12 space-y-4">
         <a href={user_info.socials.github} className="flex gap-4 text-gray-500 dark:text-gray-300 hover:text-blue-600 transition-all duration-300">
           <FaGithub className="self-center text-lg" />

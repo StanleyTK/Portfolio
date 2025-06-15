@@ -23,7 +23,6 @@ function ExperienceCard({ image, role, company, year, description, location, tec
       <ul className="mt-4 text-gray-700 dark:text-gray-300 list-disc list-inside space-y-2">
         {descriptionPoints.map((point, index) => (
           <li key={index} className="flex">
-            <span className="flex-shrink-0">•</span>
             <span className="flex-grow pl-2">{point.trim()}</span>
           </li>
         ))}

@@ -2,7 +2,7 @@ import React from "react";
 
 function EducationSection({ education }) {
   return (
-    <section id="education" className="px-6 md:px-24 mt-20 font-sans">
+    <section id="education" className="px-6 md:px-24 mt-10 font-sans">
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-12">
         {education.map((edu, index) => (
           <article

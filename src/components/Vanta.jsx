@@ -1,15 +1,15 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useContext } from "react";
+import { AppContext } from "../App";
 
-/**
- * Full-screen Vanta Rings background (tuned for smoothness).
- */
+
 export default function Vanta() {
   const vantaRef = useRef(null);
+  const { theme } = useContext(AppContext);
 
   useEffect(() => {
     if (window.VANTA && typeof window.VANTA.BIRDS === "function") {
       const effect = window.VANTA.BIRDS({
-        el: vantaRef.current,     // use the actual node, not a selector
+        el: vantaRef.current,
         mouseControls: true,
         touchControls: true,
         gyroControls: false,
@@ -17,20 +17,20 @@ export default function Vanta() {
         minWidth: 200.00,
         scale: 1.00,
         scaleMobile: 1.00,
-        backgroundColor: 0x242450,
-        color1: 0xff3aa2,
-        color2: 0x1cd91c,
+        backgroundColor: theme === "dark" ? 0x242450 : 0xe5e5e5,
+        color1: theme === "dark" ? 0xff3aa2 : 0x3e8e41,
+        color2: theme === "dark" ? 0x1cd91c : 0x00698f,
         wingSpan: 17.00,
         speedLimit: 0.5,
         separation: 150.00,
         alignment: 77.00,
         cohesion: 82.00,
-        quantity: 3.00
+        quantity: 4.00
       });
 
       return () => effect?.destroy();
     }
-  }, []);
+  }, [theme]);
 
   return (
     <div
